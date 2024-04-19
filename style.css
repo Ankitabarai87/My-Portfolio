@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(12, 12, 125);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/** Header**/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(28, 28, 108);
+}
+
+.left {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(93, 192, 228);
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+/** Home Section **/
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.home>div {
+    width: 30%;
+}
+
+.left_home {
+    font-size: 2.5rem;
+}
+
+.right_home img {
+    width: 80%;
+}
+
+.purpol {
+    color: rgb(168, 91, 240);
+    font-weight: 600;
+}
+
+#element {
+    color: rgb(168, 91, 240);
+}
+
+/** About me **/
+.about-me {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    padding: 50px;
+}
+
+.about-me> div {
+    width: 50%;
+}
+.left-about-me img {
+    width: 500px;
+    padding-left: 150px;
+}
+
+.right-about-me {
+    width: 100px;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+/** ending of about me **/
+
+/** services **/
+.s h2 {
+    padding-left: 100px;
+}
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+}
+.box h5 {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    width: 250px;
+    height: 300px;
+    padding: 15px 5px 15px 5px;
+    background-color: rgb(40, 4, 173);
+}
+
+/** ending of the service section **/
+
+/** Skills **/
+.skills h2 {
+    margin-left: 110px;
+}
+
+.skills li {
+    padding: 15px 80px;
+}
+/** ending of skills section **/
+
+
+/**Contact Me**/
+.contact_me {
+    display: flex;
+    margin:60px;
+}
+
+.left-contact {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+.button {
+    padding: 5px 15px 5px 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(16, 185, 236);
+    border-radius: 4px;
+    border: none;
+}
+
+.left-contact ul li {
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+.left-contact ul li i {
+    margin: 8px;
+}
+
+.right-contact {
+    width: 50%;
+}
+
+.right-contact input {
+    margin-bottom: 20px;
+}
+
+/**Contact Me Ending**/
+
+/** footer **/
+
+footer {
+    text-align: center;
+    background-color:rgb(28, 28, 108);
+    height: 30px;
+    padding-top: 3px;
+}
+/**footer end **/
